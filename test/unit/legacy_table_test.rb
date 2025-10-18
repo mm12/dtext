@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require 'dtext'
 require_relative 'test_helper'
 
-# Tests for legacy tables, like [ltable]text | text[/ltable]
+# Tests for legacy tables, like `[ltable]text | text[/ltable]`
 class DTextLegacyTableTest < Minitest::Test
   include DTextTestHelper
   LSTART = "[ltable]"
